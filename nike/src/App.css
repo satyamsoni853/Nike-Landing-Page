@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav button {
+  all: unset;
+  padding: 6px 16px;
+  background: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+  align-items: flex-end;
+  margin-right: 50px;
+  
+}
+
+.nikeimg{
+    margin-left: 50px;
+}
+ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.hero{
+  display: flex;
+  margin-top: 50px;
+}
+.Hero_content{
+  /* border: 2px solid black; */
+  width: 50vw;
+  /* margin-left: 10%; */
+  /* margin-top: 10%; */
+  height: 80vh;
+ 
+
+}
+.her_img{
+  /* border: 2px solid black; */
+  width: 50%;
+  /* height: 100vh; */
+}
+.Hero_content h1{
+  font-size: 4rem;
+  font-weight: 500;
+}
+.Hero_content p{
+  padding-top: 25px;
+}
+.Shpoing img {
+  display: inline;
+  /* justify-content: space-between; */
+  padding: 20px;
+  justify-content: space-around;
+}
+.hero-btn{
+  /* background-color: red; */
+  color: black;
+  display:flex;
+  justify-content: space-around;
+  /* padding: 50px; */
+  /* margin: 50px; */
+  margin-top: 50px;
+}
